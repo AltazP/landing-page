@@ -111,12 +111,35 @@ body{
   color: rgb(166, 31, 255);
 }
 
-button{
-  padding: 10px 15px;
+.action{
+  margin: 100px 0;
   background-color: deeppink;
+  border-radius: 10px;
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.action-head{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: rgb(166, 31, 255);
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
+}
+
+.action-button{
+  color: deeppink;
+  background-color: black;
+  border: 3px solid rgb(100, 100, 100);
+  padding: 10px 30px;
 }
 
 ul{
